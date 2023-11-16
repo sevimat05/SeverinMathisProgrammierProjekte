@@ -1,0 +1,66 @@
+.do-not-display {
+  display: none;
+}
+
+#municipalities path {
+  position: relative;
+  fill: rgb(211, 94, 44);
+  box-shadow: 1px 1px 1px violet;
+  stroke: blueviolet;
+  stroke-width: 0.75px;
+}
+
+#lakes path {
+  fill: rgb(0, 4, 255);
+}
+
+#tooltip-map {
+  position: absolute;
+  padding: 10px;
+  background: blueviolet;
+  color: hotpink;
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+.Heizungstyp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 30%;
+}
+.Heizungstyp1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 5px;
+}
+
+.chart-container {
+  margin-top: 25%;
+  position: relative;
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+p {
+  font-size: 12px;
+}
+.Text {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333333;
+  background-color: #f0f0f0;
+  border: 1px solid #cccccc;
+  padding: 10px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
