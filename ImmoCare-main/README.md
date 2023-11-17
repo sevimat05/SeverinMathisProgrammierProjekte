@@ -1,2 +1,0 @@
-# ImmoCare
-Liegenschaftenverwaltung für Liegensschaftenverwalter
